@@ -1,0 +1,153 @@
+body {
+	background: rgba(210,180,140,.7);
+	padding-top: 70px;
+}
+
+.content {
+	padding-top: 20px;
+}
+
+#updForm, #histForm, #inputForm {
+	text-align: center;
+}
+
+#info {
+	text-align: center;
+}
+
+#buttons {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.tableHead {
+	background: #333;
+	color: #f5f5f5;
+	text-align: center !important;
+}
+
+.tableRow {
+	background: #f5f5f5 !important;
+}
+
+#login-center {
+	text-align: center;
+}
+
+.input-center {
+	text-align: left;
+}
+
+#calories-info, #stats-info, #bmi-info  {
+	background: rgba(0,0,0,.8);
+	border-radius: 20px;
+	color: #f5f5f5;
+	overflow: hidden;
+} 
+
+.inner-info {
+		height: 200px;
+	}
+
+
+.inner-info h2 {
+	margin-top: 55px;
+}
+
+.inner-info p:first-child {
+	margin-top: 55px;
+}
+
+.inner-info h3 {
+	color: #5cb85c;
+}
+
+#logoff {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#updateCol {
+	text-align: right;
+}
+
+#newCalCol {
+	text-align: left;
+}
+
+#update, #history, #inputNew {
+	width: 146px;
+	margin-bottom: 10px;
+}
+
+
+@media (max-width: 1198px) {
+	.inner-info p {
+		font-size: .75em;
+	}
+	
+	.inner-info h2 {
+		font-size: 2em;
+	}
+	
+	.inner-info h3 {
+		font-size: 1.75em;
+	}
+	
+	
+}
+
+@media (max-width: 767px) {
+	.input-center {
+	text-align: center;
+	}
+	.inner-info h2 {
+	margin-top: 10px;
+	}
+	
+	.inner-info h3 {
+	margin-top: 10px;
+	}
+	
+	.inner-info {
+		height: auto;
+	}
+	
+	.inner-info p:first-child {
+	margin-top: 10px;
+	}
+	
+	#updateCol {
+	text-align: center;
+	}
+
+	#newCalCol {
+		text-align: center;
+	}
+	
+}
+
+@media (max-width: 520px) {
+	.inner-info p {
+		font-size: .5em;
+	}
+	
+	.inner-info h2 {
+		font-size: 1.25em;
+	}
+	
+	.inner-info h3 {
+		font-size: 1em;
+	}
+}
+
+
+
+
+
+@media (min-width: 767px) {
+
+
+
+}
+
